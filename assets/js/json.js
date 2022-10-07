@@ -1,6 +1,6 @@
 // Display Images From API
 $(document).ready(function () {
-  $.getJSON("https://raw.githubusercontent.com/basildesigns/api/master/json/images/images.json",
+  $.getJSON("https://images.jijinraj.com/api/master/json/images/images.json",
     function (data) {
       let employee = '';
       $.each(data, function (key, value) {
