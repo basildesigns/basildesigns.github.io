@@ -168,6 +168,7 @@
       });
 
       let portfolioFilters = select('#portfolio-flters li', true);
+      portfolioContainer.setAttribute("style", "height: auto;");
 
       on('click', '#portfolio-flters li', function(e) {
         e.preventDefault();
